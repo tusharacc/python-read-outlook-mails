@@ -1,0 +1,33 @@
+Pseudo Code
+
+Functionality -
+1. Assign ticket to someone
+2. Save additional details (Auto populate)
+3. Export to excel....current report
+4. Fetch mails between dates and export
+5. Refresh
+6. Auto-Refresh
+7. pagination
+8. linking/unlinking
+9. Mail in case of error...attach logs
+
+
+WorkFlow
+1. Get Mails from Outlook ---> Should get details from Table
+2. Display GUI
+3. If assigned - Save the details
+4. Details -
+    1. Auto populate
+    2. Save. It will always be upsert
+
+
+Tables
+1. Users - List of users, roles
+2. Last Run - Used for Refresh
+3. Mail details
+
+
+
+Error Handling -
+DB Connect - Exit Application
+
