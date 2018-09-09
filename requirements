@@ -1,16 +1,24 @@
 Pseudo Code
 
 Functionality -
-1. Assign ticket to someone
-2. Save additional details (Auto populate)
-3. Export to excel....current report
-4. Fetch mails between dates and export
-5. Refresh
-6. Auto-Refresh
-7. pagination
-8. linking/unlinking
-9. Mail in case of error...attach logs
+1. Assign ticket to someone....COMPLETED
+2. Save additional details (Auto populate)......Partially completed (link Save button to database)
+3. Export to excel....current report.......COMPLETED
+4. Fetch mails between dates and export....INCOMPLETE
+5. Refresh....COMPLETE
+6. Auto-Refresh...INCOMPLETE
+7. pagination...COMPLETE
+8. linking/unlinking....NOT STARTED
+9. Mail in case of error...attach logs (LATER)
+10. Expand collapse, mail conversation ..NOT STARTED
+11. Loggin Functionality
+12. Filtering
+13.
 
+To do -
+Make child window come up on top of root window
+disable root window unless child window is closed
+scrollbar
 
 WorkFlow
 1. Get Mails from Outlook ---> Should get details from Table

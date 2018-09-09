@@ -2,11 +2,14 @@ import sqlite3
 from sqlite3 import Error
 
 class SQLInterface:
-	def __init__(self,filename):
+	def __init__(self,filename,ro=False):
 
 		try:
 			self.status = 'Ok'
-			self.conn = sqlite3.connect(filename)
+			if ro:
+				self.conn = sqlite3.connect('file:./maildb.db?mode=ro',uri=True)
+			else:
+				self.conn = sqlite3.connect(filename)
 		except Error as e:
 			self.status = str(e)
 			print(e)
